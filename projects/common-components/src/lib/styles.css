@@ -1,0 +1,63 @@
+.el-message {
+    font-size: smaller;
+}
+.el-buttonframe {
+    margin: 35px 0;
+}
+div.el-buttonframe>button {
+    margin: 0px 5px;
+}
+
+.el-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.el-title {
+    margin-top:50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.el-errortitle {
+    color: red;
+}
+
+.el-formframe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 10px 10px 10px;
+    margin: 10px;
+    width: 40dvw;
+}
+
+.el-errorframe {
+    border: solid 2px;
+    border-radius: 5px;
+    color: red;
+    border-color: red;
+    padding: 50px;
+    margin: 45px;
+    width: 40dvw;
+    text-align: center;
+}
+
+.el-errormessage {
+    color: red;
+    font-size: larger;
+    /* font-weight: bolder; */
+}
+
+.el-inputfield {
+    width: 300px;
+}
+

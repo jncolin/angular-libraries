@@ -1,0 +1,12 @@
+.el-header-logo {
+    max-width: 325px;
+    max-height: 180px;
+    padding: 10px;
+}
+
+.el-header-title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: var(--r-color-2);
+    padding: 10px;
+}
