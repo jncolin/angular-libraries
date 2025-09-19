@@ -1,3 +1,5 @@
-<div *ngIf="this.spinnerService.visibility | async" class="cssload-container">
+@if (this.spinnerService.visibility | async) {
+<div class="cssload-container">
     <div class="cssload-speeding-wheel"></div>
 </div>
+}
