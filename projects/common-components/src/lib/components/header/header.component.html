@@ -1,4 +1,5 @@
 <div class="container" style="margin: 0px;">
+    @if (logoSrc) {
     <div class="row">
         <div class="col-4">
             <img [src]="logoSrc" class="el-header-logo" />
@@ -7,4 +8,11 @@
             {{ title }}
         </div>
     </div>
+    } @else {
+    <div class="row">
+        <div class="offset-4 col-8 d-flex align-items-center justify-content-center el-header-title">
+            {{ title }}
+        </div>
+    </div>
+    }
 </div>

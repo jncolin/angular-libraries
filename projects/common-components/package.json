@@ -1,6 +1,6 @@
 {
   "name": "common-components",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "peerDependencies": {
     "@angular/common": "^20.2.0",
     "@angular/core": "^20.2.0"

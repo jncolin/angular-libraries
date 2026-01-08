@@ -13,6 +13,7 @@ import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/materia
   styleUrls: ['./confirm-dialog.component.css']
 })
 export class ConfirmDialogComponent {
+  title: string = "Confirm"
   message: string = "Are you sure?"
   confirmButtonText = "Yes"
   cancelButtonText = "Cancel"
@@ -21,6 +22,7 @@ export class ConfirmDialogComponent {
     @Inject(MAT_DIALOG_DATA) private data: any,
     private dialogRef: MatDialogRef<ConfirmDialogComponent>) {
     if (data) {
+      this.title = data.title || this.title;
       this.message = data.message || this.message;
       if (data.buttonText) {
         this.confirmButtonText = data.buttonText.ok || this.confirmButtonText;

@@ -12,6 +12,7 @@ In angular-libraries
 ```
 npx ng build common-components --configuration production
 cd dist/common-components
+npm pack
 ```
 
 This produces an archive file that can be copied and installed from another project
